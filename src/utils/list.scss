@@ -1,25 +1,41 @@
-.cur {
-    cursor: pointer;
+.sidebar {
+    margin-left: -70px;
+    z-index: 100;
 }
 
-.br-0 {
-    border-radius : 0
+.max-size {
+    height: 657px;
 }
 
-.h-20 {
-    height: 20px;
+.top-card {
+    height: 40px;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
-.element {
-    border: 2px solid lightgray;
-     height: 32px;
-      width: 50px ;
-       border-radius: 5px ; 
-       cursor:pointer
-
+.menu{
+    height: 30px;
+    width: 30px;
+    color: white;
+    margin-left: -9px;
+    margin-top: 5px;
 }
 
-.hr-s{
-    margin-left: -20px;
-    margin-right: -20px   
+.search-div {
+    background-color: #dfdfdf;
+    width: 23px;
+    height: 23px;
+    border-radius: 22px;
+}
+.search-icon{
+    margin-left: 4px;
+    margin-top: -4px;
+}
+
+.side-icons{
+    color: white;
 }

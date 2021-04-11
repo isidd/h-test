@@ -8,13 +8,11 @@ import { BrowserRouter } from 'react-router-dom';
 import { createStore, applyMiddleware, compose } from "redux";
 import { Provider } from "react-redux";
 import thunk from "redux-thunk";
-import {List} from "./store/reducer";
 import { Logger } from "./helper/logger"; //Middleware for logging the Redux Actions on console
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 let store = createStore(
-  List,
   composeEnhancers(applyMiddleware(thunk,Logger))
 );
 
